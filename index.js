@@ -3,9 +3,10 @@ var  b = 308;
 var  c = 486;
 var  d = 572;
 
-var production = [A, B, C, D];
+var production = [a, b , c, d];
 var i=0;
 while (i<production.length){
-    var shed = ['A','B','C','D'];
-    
+    var shed = ["A", "B", "C", "D"];
+    console.log("Your production in Shed " + shed[i] + " is " + production[i] + " Litres per day.");
+    i++;
 }
