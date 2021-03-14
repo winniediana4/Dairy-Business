@@ -14,7 +14,7 @@ To access this project on your local files, you can clone it using these steps
 1. Use this command to clone `$ git clone https://github.com/winniediana4/Dairy-Business.git
 1. This will clone the repository into your local folder
 ### Live Site
-View [live]()
+View [live](https://winniediana4.github.io/Dairy-Business/)
 ## Known Bugs
 {No known bugs.}
 ## Technologies Used

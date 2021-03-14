@@ -16,8 +16,16 @@ console.log("Your total production is " + totalProduction + " litres per day");
 var sellingPrice = 45;
 console.log("Your daily total income will be Ksh. " + totalProduction * sellingPrice)
 console.log("Your weekly income will be Ksh. " + totalProduction * sellingPrice * 7);
+console.log("Your yearly income will be Ksh. " + totalProduction * sellingPrice * 12);
 
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 var daysOfMonthLeap = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 var daysOfMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 
+months = daysOfMonthLeap;
+var i=0;
+while (i<months.length){
+    var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    console.log("Your income for " + month[i] + " is " + totalProduction * sellingPrice * months[i]);
+    i++;
+}
