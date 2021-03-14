@@ -10,3 +10,7 @@ while (i<production.length){
     console.log("Your production in Shed " + shed[i] + " is " + production[i] + " Litres per day.");
     i++;
 }
+var totalProduction = a + b + c + d;
+console.log("Your total production is " + totalProduction + " litres per day.");
+
+
