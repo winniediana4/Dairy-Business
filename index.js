@@ -17,6 +17,6 @@ var sellingPrice = 45;
 console.log("Your weekly income will be Ksh " + totalProduction * sellingPrice * 7);
 
 var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-
 var daysOfMonthLeap = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
 var daysOfMonth = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+
