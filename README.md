@@ -11,8 +11,8 @@ You can install it with the following command in your terminal
 ### Setup
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
-1. Use this command to clone `$ git clone 
-1. This will clone the repositoty into your local folder
+1. Use this command to clone `$ git clone https://github.com/winniediana4/Dairy-Business.git
+1. This will clone the repository into your local folder
 ### Live Site
 View [live]()
 ## Known Bugs
@@ -21,6 +21,7 @@ View [live]()
 1. HTML
 1. CSS
 1. Git
+1. JS
 ## Support and contact details
 For inquiries or contributions, you can reach me at deinawinnie84@gmail.com.
 ### License
