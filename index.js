@@ -13,4 +13,7 @@ while (i<production.length){
 var totalProduction = a + b + c + d;
 console.log("Your total production is " + totalProduction + " litres per day.");
 
+var sellingPrice = 45;
+console.log("Your weekly income will be Ksh " + totalProduction * sellingPrice * 7);
+
 
