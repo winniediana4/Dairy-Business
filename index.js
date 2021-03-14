@@ -16,4 +16,6 @@ console.log("Your total production is " + totalProduction + " litres per day.");
 var sellingPrice = 45;
 console.log("Your weekly income will be Ksh " + totalProduction * sellingPrice * 7);
 
+var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
 
