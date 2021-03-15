@@ -10,6 +10,17 @@ while (i<production.length){
     console.log("Your production in Shed " + shed[i] + " is " + production[i] + " Litres per day");
     i++;
 }
+function myFunction() {
+    var txt;
+if (confirm("Report!")) {
+    txt = ("Your production in Shed " + "A" + " is " + 510 + " Litres per day");
+    i++;
+  } else {
+    txt = "Undefined!";
+  }
+  document.getElementById("report").innerHTML = txt;
+}
+
 var totalProduction = a + b + c + d;
 console.log("Your total production is " + totalProduction + " litres per day");
 
