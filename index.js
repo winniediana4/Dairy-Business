@@ -12,7 +12,7 @@ while (i<production.length){
 }
 function myFunction() {
     var txt;
-if (confirm("Report!")) {
+if (confirm("Click OK to get Report!")) {
     txt = ("Your production in Shed " + "A" + " is " + 510 + " Litres per day");
     i++;
   } else {
